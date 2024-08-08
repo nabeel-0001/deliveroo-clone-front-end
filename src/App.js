@@ -1,6 +1,7 @@
-import NavBar from './components/nav/navbar'
-import { Box } from '@mui/material';
-import './App.css';
+import NavBar from "./components/nav/navbar";
+import { Box } from "@mui/material";
+import "./App.css";
+import TopMenu from "./components/menuheader/topMenu";
 
 function App() {
   return (
@@ -8,6 +9,9 @@ function App() {
       <header>
         <NavBar />
       </header>
+      <menuHeader>
+        <TopMenu />
+      </menuHeader>
     </Box>
   );
 }
